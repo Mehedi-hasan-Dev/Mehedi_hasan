@@ -101,7 +101,7 @@ ul,ol{
     width: 300px;
     padding-bottom: 25px;
     border-radius: 30px;
-    z-index: 99999;
+    z-index: 999;
     padding-top: 10px;
 }
 .sidebar-info{
@@ -481,12 +481,13 @@ ul,ol{
     transition: all linear 0.3s;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    z-index: 99999;
 }
 .port-details:hover img{
     transform: scale(1.2);
 }
 .port-details a:hover img{
-    transform: scale(1.4) rotate(5deg);
+    transform: scale(1.2) rotate(5deg);
 }
 .port-text{
     margin-top: 30px;
